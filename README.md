@@ -81,8 +81,12 @@ spring.datasource.url=jdbc:mysql://localhost:3306/your_secure_db_name?useSSL=fal
 spring.datasource.username=your_secure_user
 spring.datasource.password=your_secure_password
 
+# Setting Access Keys
+In the application.properties file, please replace the following two properties with your AWS access key ID and secret key:
 
-
+properties:
+aws.accessKeyId=your_actual_access_key_id
+aws.secretKey=your_actual_secret_key
 
 
 
