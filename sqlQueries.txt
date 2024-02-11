@@ -1,0 +1,14 @@
+SQL Queries:
+
+Drop user if exists'Nimesa'@'localhost';
+Drop DATABASE if EXISTS AWSService;
+
+CREATE USER 'Nimesa'@'localhost' IDENTIFIED BY 'password123';
+create DATABASE AWSService;
+
+GRANT ALL PRIVILEGES ON AWSService.* TO 'Nimesa';
+
+
+
+
+
